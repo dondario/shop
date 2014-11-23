@@ -21,7 +21,7 @@ required:
 
 The requirements are deliberately vague in order to force you to make some
 choices of your own.  Please make what assumptions you think are needed based
-on your own experiences with shopping and discounts. If you wish you could
+on your own experiences with shopping and discountResults. If you wish you could
 include a .txt file with details of any assumptions made, or leave comments in
 the code.
 
