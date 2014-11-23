@@ -1,38 +1,55 @@
 package shop.discount;
 
 
-import shop.discount.strategy.MultiBuyOffer;
-import shop.discount.strategy.PercentageOffSpendDiscount;
+import com.google.common.collect.Ordering;
 import shop.order.Order;
 
-import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import static com.google.common.collect.Lists.newArrayList;
 
 public class DiscountService {
 
+    private final DiscountFactory discountFactory;
+    private final List<Discount> availableDiscounts;
+
+    public DiscountService(DiscountFactory discountFactory, ArrayList<Discount> availableDiscounts) {
+        this.discountFactory = discountFactory;
+        this.availableDiscounts = availableDiscounts;
+    }
+
     public Order getDiscountedOrder(Order order) {
         List<DiscountResult> discountResults = newArrayList();
-        List<Discount> discounts = newArrayList();
-
-        Discount tenPercentDiscountOnSpendOverFifty = new Discount(new PercentageOffSpendDiscount(10, new BigDecimal(50)));
-        Discount threeForThePriceOfTwo = new Discount(new MultiBuyOffer(3, 2));
-
-        discounts.add(threeForThePriceOfTwo);
-        discounts.add(tenPercentDiscountOnSpendOverFifty);
-
-
         Order discountedOrder = new Order(order.getOrderLines());
-        for(Discount discount : discounts) {
+
+        Collections.sort(availableDiscounts, byPriority());
+        for (Discount discount : availableDiscounts) {
             DiscountResult result = discount.apply(discountedOrder);
             if (null != result) {
                 discountResults.add(result);
             }
 
-            discountedOrder =  new Order(order.getOrderLines(), discountResults);
+            discountedOrder = new Order(order.getOrderLines(), discountResults);
         }
 
         return discountedOrder;
+    }
+
+    private Ordering<Discount> byPriority() {
+        return new Ordering<Discount>() {
+            @Override
+            public int compare(Discount lhs, Discount rhs) {
+                return lhs.getPriority() - rhs.getPriority();
+            }
+        };
+    }
+
+    public Order getDiscountedOrderWithVoucher(Order order, String voucherCode) {
+        Discount voucherDiscount = discountFactory.buildDiscount(voucherCode);
+        availableDiscounts.add(voucherDiscount);
+
+        return getDiscountedOrder(order);
     }
 }

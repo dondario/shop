@@ -14,7 +14,15 @@ public class Checkout {
     }
 
     public BigDecimal total() {
-        BigDecimal total = order.getOrderTotal();
+
+        BigDecimal total = discountService.getDiscountedOrder(order).getOrderTotal();
+
+        return total;
+    }
+
+    public BigDecimal totalWithCoupon(String voucherCode) {
+
+        BigDecimal total = discountService.getDiscountedOrderWithVoucher(order, voucherCode).getOrderTotal();
 
         return total;
     }
