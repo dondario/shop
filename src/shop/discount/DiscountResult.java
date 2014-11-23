@@ -14,4 +14,10 @@ public class DiscountResult {
         return amount;
     }
 
+
+    @Override
+    public String toString() {
+        return new StringBuilder().append("amount ").append(amount.toPlainString())
+                .toString();
+    }
 }

@@ -28,18 +28,4 @@ public class OrderLineTest {
         assertThat(total, is(new BigDecimal("40")));
     }
 
-    @Test
-    public void shouldCalculateOrderTotal(){
-        // Given
-        Order order = orderBuilder().orderLines(newArrayList(
-                orderLineBuilder().product(productBuilder().cost(new BigDecimal("20")).build()).quantity(2).build(),
-                orderLineBuilder().product(productBuilder().cost(new BigDecimal("9")).build()).quantity(1).build())
-        ).build();
-
-        // When
-        BigDecimal orderTotal = order.getOrderTotal();
-
-        // Then
-        Assert.assertThat(orderTotal, is(new BigDecimal("49")));
-    }
 }

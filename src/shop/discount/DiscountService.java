@@ -12,7 +12,7 @@ import static com.google.common.collect.Lists.newArrayList;
 
 public class DiscountService {
 
-    public List<DiscountResult> getDiscountResults(Order order) {
+    public Order getDiscountedOrder(Order order) {
         List<DiscountResult> discountResults = newArrayList();
         List<Discount> discounts = newArrayList();
 
@@ -22,13 +22,17 @@ public class DiscountService {
         discounts.add(threeForThePriceOfTwo);
         discounts.add(tenPercentDiscountOnSpendOverFifty);
 
+
+        Order discountedOrder = new Order(order.getOrderLines());
         for(Discount discount : discounts) {
-            DiscountResult result = discount.apply(order);
+            DiscountResult result = discount.apply(discountedOrder);
             if (null != result) {
                 discountResults.add(result);
             }
+
+            discountedOrder =  new Order(order.getOrderLines(), discountResults);
         }
 
-        return discountResults;
+        return discountedOrder;
     }
 }
