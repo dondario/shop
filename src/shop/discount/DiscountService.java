@@ -2,6 +2,7 @@ package shop.discount;
 
 
 import com.google.common.collect.Ordering;
+import shop.discount.voucher.VoucherCode;
 import shop.order.Order;
 
 import java.util.ArrayList;
@@ -46,8 +47,8 @@ public class DiscountService {
         };
     }
 
-    public Order getDiscountedOrderWithVoucher(Order order, String voucherCode) {
-        Discount voucherDiscount = discountFactory.buildDiscount(voucherCode);
+    public Order getDiscountedOrderWithVoucher(Order order, VoucherCode voucherCode) {
+        Discount voucherDiscount = discountFactory.buildDiscount(voucherCode.toString());
         availableDiscounts.add(voucherDiscount);
 
         return getDiscountedOrder(order);

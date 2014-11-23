@@ -18,11 +18,9 @@ public class DiscountFactory {
             return new Discount(new MultiBuyOffer(3, 2), 1);
         }
 
-        if (discountCode.equals("OneFreeWidget")) {
+        if (discountCode.equalsIgnoreCase("OneFreeWidget")) {
             return new Discount(new OneFreeProduct(ProductCode.Widget), 3);
         }
-
-
 
         throw new IllegalArgumentException("could not create a discount.");
     }

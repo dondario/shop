@@ -55,6 +55,23 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/test/shop/order/CheckoutTest.java" line="58" class="shop.order.CheckoutTest" package="shop.order">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -64,46 +81,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CheckoutTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/shop/order/CheckoutTest.java">
+      <file leaf-file-name="DiscountService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="75" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="750">
+            <state line="50" column="57" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="930">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1278#1473#0" expanded="true" />
+                <element signature="e#1462#1463#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/order/Order.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="780">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountService.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountService.java">
+      <file leaf-file-name="OrderLine.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/order/OrderLine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="314" selection-end="314" vertical-scroll-proportion="-1.4028777" vertical-offset="495" max-vertical-offset="810">
-              <folding>
-                <element signature="e#1236#1431#0" expanded="true" />
-                <element signature="e#1420#1421#0" expanded="true" />
-              </folding>
+            <state line="6" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="69" max-vertical-offset="420">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountFactory.java">
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/product/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="359" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="88" max-vertical-offset="525">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="360">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Discount.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/discount/Discount.java">
+      <file leaf-file-name="ProductCode.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/shop/product/ProductCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="435">
-              <folding>
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-              </folding>
+            <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.08547009" vertical-offset="0" max-vertical-offset="351">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Checkout.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/order/Checkout.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="630">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -111,16 +142,16 @@
       <file leaf-file-name="DiscountResult.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+            <state line="4" column="13" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="405">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountFactoryTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/shop/discount/DiscountFactoryTest.java">
+      <file leaf-file-name="DiscountFactory.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0" vertical-offset="307" max-vertical-offset="795">
+            <state line="21" column="58" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="495">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,42 +159,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiscountServiceTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/shop/discount/DiscountServiceTest.java">
+      <file leaf-file-name="VoucherCode.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/discount/voucher/VoucherCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="31" selection-start="3662" selection-end="3662" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1305">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OneFreeProductTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/shop/discount/strategy/OneFreeProductTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="51" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="870">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductCode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/product/ProductCode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="3" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiBuyOffer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/shop/discount/strategy/MultiBuyOffer.java">
+      <file leaf-file-name="Discount.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/shop/discount/Discount.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="41" selection-start="515" selection-end="1218" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="585">
-              <folding />
+            <state line="16" column="26" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <folding>
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#602#603#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,16 +190,18 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test/shop/order/CheckoutTest.java" />
-        <option value="$PROJECT_DIR$/src/shop/order/Checkout.java" />
         <option value="$PROJECT_DIR$/src/shop/discount/strategy/OneFreeProductOfType.java" />
         <option value="$PROJECT_DIR$/src/shop/discount/strategy/OneFreeProduct.java" />
         <option value="$PROJECT_DIR$/test/shop/discount/strategy/OneFreeProductTest.java" />
-        <option value="$PROJECT_DIR$/test/shop/discount/DiscountServiceTest.java" />
-        <option value="$PROJECT_DIR$/src/shop/discount/DiscountService.java" />
-        <option value="$PROJECT_DIR$/src/shop/discount/DiscountFactory.java" />
         <option value="$PROJECT_DIR$/test/shop/discount/DiscountFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/shop/discount/Discount.java" />
+        <option value="$PROJECT_DIR$/src/shop/discount/voucher/VoucherCode.java" />
+        <option value="$PROJECT_DIR$/src/shop/discount/DiscountService.java" />
+        <option value="$PROJECT_DIR$/src/shop/discount/DiscountFactory.java" />
+        <option value="$PROJECT_DIR$/test/shop/discount/DiscountServiceTest.java" />
+        <option value="$PROJECT_DIR$/test/shop/ShopIntegrationTest.java" />
+        <option value="$PROJECT_DIR$/src/shop/order/Checkout.java" />
+        <option value="$PROJECT_DIR$/test/shop/order/CheckoutTest.java" />
       </list>
     </option>
   </component>
@@ -262,6 +276,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -423,6 +459,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="voucher" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -458,15 +520,15 @@
       <recent name="shop.discount" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DiscountFactoryTest.buildDiscountShouldThrowExceptionIfUnknownString">
-    <configuration default="false" name="DiscountServiceTest.getDiscountedOrderWithVoucherShouldDelegateToFactoryToGetDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CheckoutTest">
+    <configuration default="false" name="ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="shop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shop.discount" />
-      <option name="MAIN_CLASS_NAME" value="shop.discount.DiscountServiceTest" />
-      <option name="METHOD_NAME" value="getDiscountedOrderWithVoucherShouldDelegateToFactoryToGetDiscount" />
+      <option name="PACKAGE_NAME" value="shop" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShopIntegrationTest" />
+      <option name="METHOD_NAME" value="checkoutAndReceiveOneFreeWidgetWithVoucher" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -488,15 +550,44 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="OneFreeProductTest.testGetDiscountResultShouldReturnDiscountIfMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucherThreeForTwoAndTenPercentOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="shop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shop.discount.strategy" />
-      <option name="MAIN_CLASS_NAME" value="shop.discount.strategy.OneFreeProductTest" />
-      <option name="METHOD_NAME" value="testGetDiscountResultShouldReturnDiscountIfMatches" />
+      <option name="PACKAGE_NAME" value="shop" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShopIntegrationTest" />
+      <option name="METHOD_NAME" value="checkoutAndReceiveOneFreeWidgetWithVoucherThreeForTwoAndTenPercentOff" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ShopIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" />
+      <module name="shop" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="shop" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShopIntegrationTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -511,15 +602,15 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="OneFreeProductTest.testGetDiscountResultShouldReturnOnlyOneDiscountIfMatches" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="CheckoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="shop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shop.discount.strategy" />
-      <option name="MAIN_CLASS_NAME" value="shop.discount.strategy.OneFreeProductTest" />
-      <option name="METHOD_NAME" value="testGetDiscountResultShouldReturnOnlyOneDiscountIfMatches" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="shop.order" />
+      <option name="MAIN_CLASS_NAME" value="shop.order.CheckoutTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -530,41 +621,24 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="DiscountFactoryTest.buildDiscountShouldReturnMultiBuy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ShopIntegrationTest.checkoutAndReceiveNothingWithInvalidVoucher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" />
       <module name="shop" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shop.discount" />
-      <option name="MAIN_CLASS_NAME" value="shop.discount.DiscountFactoryTest" />
-      <option name="METHOD_NAME" value="buildDiscountShouldReturnMultiBuy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="DiscountFactoryTest.buildDiscountShouldThrowExceptionIfUnknownString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" />
-      <module name="shop" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="shop.discount" />
-      <option name="MAIN_CLASS_NAME" value="shop.discount.DiscountFactoryTest" />
-      <option name="METHOD_NAME" value="buildDiscountShouldThrowExceptionIfUnknownString" />
+      <option name="PACKAGE_NAME" value="shop" />
+      <option name="MAIN_CLASS_NAME" value="shop.ShopIntegrationTest" />
+      <option name="METHOD_NAME" value="checkoutAndReceiveNothingWithInvalidVoucher" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -704,19 +778,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.DiscountServiceTest.getDiscountedOrderWithVoucherShouldDelegateToFactoryToGetDiscount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.OneFreeProductTest.testGetDiscountResultShouldReturnDiscountIfMatches" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.OneFreeProductTest.testGetDiscountResultShouldReturnOnlyOneDiscountIfMatches" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DiscountFactoryTest.buildDiscountShouldReturnMultiBuy" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DiscountFactoryTest.buildDiscountShouldThrowExceptionIfUnknownString" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucher" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucherThreeForTwoAndTenPercentOff" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveNothingWithInvalidVoucher" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DiscountFactoryTest.buildDiscountShouldThrowExceptionIfUnknownString" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DiscountFactoryTest.buildDiscountShouldReturnMultiBuy" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DiscountServiceTest.getDiscountedOrderWithVoucherShouldDelegateToFactoryToGetDiscount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.OneFreeProductTest.testGetDiscountResultShouldReturnOnlyOneDiscountIfMatches" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.OneFreeProductTest.testGetDiscountResultShouldReturnDiscountIfMatches" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.CheckoutTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveNothingWithInvalidVoucher" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucherThreeForTwoAndTenPercentOff" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ShopIntegrationTest.checkoutAndReceiveOneFreeWidgetWithVoucher" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -768,8 +842,29 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922825" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4181818" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3355372" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="110" y="122" width="1060" height="523" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922825" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4181818" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -796,13 +891,6 @@
     <entry file="file://$PROJECT_DIR$/test/shop/product/ProductBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="40" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/order/Checkout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="50" selection-start="608" selection-end="608" vertical-scroll-proportion="0.0" vertical-offset="130" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
@@ -837,29 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/shop/order/CheckoutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="75" selection-start="2209" selection-end="2209" vertical-scroll-proportion="0.0" vertical-offset="385" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/shop/discount/DiscountServiceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="31" selection-start="3662" selection-end="3662" vertical-scroll-proportion="0.0" vertical-offset="965" max-vertical-offset="1305">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/shop/product/ProductCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="92" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/shop/discount/strategy/OneFreeProductTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="43" column="51" selection-start="1710" selection-end="1710" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="870">
@@ -885,9 +950,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/shop/discount/DiscountServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="79" selection-start="3291" selection-end="3291" vertical-scroll-proportion="0.0" vertical-offset="1032" max-vertical-offset="1320">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shop/ShopIntegrationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="51" selection-start="3540" selection-end="3540" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="1710">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.45454547" vertical-offset="0" max-vertical-offset="330">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/shop/order/CheckoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="92" selection-start="2237" selection-end="2237" vertical-scroll-proportion="0.0" vertical-offset="194" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/discount/voucher/VoucherCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/shop/discount/Discount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="435">
+        <state line="16" column="26" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
           <folding>
             <element signature="e#571#572#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
@@ -897,7 +1001,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="359" selection-end="388" vertical-scroll-proportion="0.0" vertical-offset="73" max-vertical-offset="525">
+        <state line="21" column="58" selection-start="750" selection-end="750" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="495">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -913,11 +1017,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/shop/discount/DiscountService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="314" selection-end="314" vertical-scroll-proportion="-1.4028777" vertical-offset="495" max-vertical-offset="810">
+        <state line="50" column="57" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="930">
           <folding>
-            <element signature="e#1236#1431#0" expanded="true" />
-            <element signature="e#1420#1421#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1278#1473#0" expanded="true" />
+            <element signature="e#1462#1463#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/order/Checkout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/order/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/order/OrderLine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/product/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="66" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/shop/product/ProductCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.08547009" vertical-offset="0" max-vertical-offset="351">
+          <folding />
         </state>
       </provider>
     </entry>

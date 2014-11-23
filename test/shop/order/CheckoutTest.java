@@ -7,6 +7,7 @@ import org.mockito.Mock;
 import org.mockito.runners.MockitoJUnitRunner;
 import shop.discount.DiscountResult;
 import shop.discount.DiscountService;
+import shop.discount.voucher.VoucherCode;
 import shop.product.ProductCode;
 
 import java.math.BigDecimal;
@@ -54,9 +55,8 @@ public class CheckoutTest {
                         .build()).quantity(1).build()))
                 .discountResult(new DiscountResult(BigDecimal.TEN)).build();
 
-        String voucherCode = "voucher-code";
-        when(discountService.getDiscountedOrderWithVoucher(any(Order.class), eq(voucherCode))).thenReturn(order);
-        BigDecimal orderTotal = new Checkout(order, discountService).totalWithCoupon(voucherCode);
+        when(discountService.getDiscountedOrderWithVoucher(any(Order.class), eq(VoucherCode.OneFreeWidget))).thenReturn(order);
+        BigDecimal orderTotal = new Checkout(order, discountService).totalWithCoupon(VoucherCode.OneFreeWidget.toString());
 
         assertThat(orderTotal, is(BigDecimal.ZERO));
     }

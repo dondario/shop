@@ -8,6 +8,7 @@ import org.mockito.runners.MockitoJUnitRunner;
 import shop.discount.strategy.MultiBuyOffer;
 import shop.discount.strategy.OneFreeProduct;
 import shop.discount.strategy.PercentageOffSpendDiscount;
+import shop.discount.voucher.VoucherCode;
 import shop.order.Order;
 import shop.product.ProductCode;
 
@@ -70,8 +71,8 @@ public class DiscountServiceTest {
                 orderLineBuilder().product(productBuilder().productCode(ProductCode.Thingummy).cost(new BigDecimal("20")).build()).quantity(2).build())
         ).build();
 
-        when(discountFactory.buildDiscount("voucherCode")).thenReturn(ONE_FREE_THINGY);
-        List<DiscountResult> actual = underTest.getDiscountedOrderWithVoucher(order, "voucherCode").getDiscounts();
+        when(discountFactory.buildDiscount(VoucherCode.OneFreeWidget.toString())).thenReturn(ONE_FREE_THINGY);
+        List<DiscountResult> actual = underTest.getDiscountedOrderWithVoucher(order, VoucherCode.OneFreeWidget).getDiscounts();
 
         assertThat(actual.size(), equalTo(3));
         assertThat(actual.get(0), new DiscountResultMatcher(new DiscountResult(new BigDecimal("100"))));

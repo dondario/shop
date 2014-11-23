@@ -1,6 +1,7 @@
 package shop.order;
 
 import shop.discount.DiscountService;
+import shop.discount.voucher.VoucherCode;
 
 import java.math.BigDecimal;
 
@@ -21,8 +22,17 @@ public class Checkout {
     }
 
     public BigDecimal totalWithCoupon(String voucherCode) {
+        VoucherCode voucher = null;
+        BigDecimal total;
 
-        BigDecimal total = discountService.getDiscountedOrderWithVoucher(order, voucherCode).getOrderTotal();
+        try {
+            voucher = VoucherCode.valueOf(voucherCode);
+            total = discountService.getDiscountedOrderWithVoucher(order, voucher).getOrderTotal();
+        } catch (IllegalArgumentException e) {
+            System.out.println("Invalid voucher code");
+            System.out.println("Voucher has not been accepted");
+            total = discountService.getDiscountedOrder(order).getOrderTotal();
+        }
 
         return total;
     }
