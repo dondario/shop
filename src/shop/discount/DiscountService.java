@@ -5,7 +5,6 @@ import com.google.common.collect.Ordering;
 import shop.discount.voucher.VoucherCode;
 import shop.order.Order;
 
-import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
@@ -16,7 +15,7 @@ public class DiscountService {
     private final DiscountFactory discountFactory;
     private final List<Discount> availableDiscounts;
 
-    public DiscountService(DiscountFactory discountFactory, ArrayList<Discount> availableDiscounts) {
+    public DiscountService(DiscountFactory discountFactory, List<Discount> availableDiscounts) {
         this.discountFactory = discountFactory;
         this.availableDiscounts = availableDiscounts;
     }
